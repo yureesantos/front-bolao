@@ -30,14 +30,6 @@ class Dashboard extends Component {
                 <div className={style.panelBar}>
                   <Link
                     to={{
-                      pathname: `${this.props.match.url}/countries`,
-                      search: `?page=1&maxItems=12`
-                    }}
-                  >
-                    Paises
-                  </Link>
-                  <Link
-                    to={{
                       pathname: `${this.props.match.url}/teams`,
                       search: `?page=1&maxItems=12`
                     }}

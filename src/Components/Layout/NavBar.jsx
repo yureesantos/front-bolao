@@ -8,9 +8,6 @@ const NavBar = props => {
   return (
     <nav className={style.navbar}>
       <ul>
-        <Link to="/help">
-          <li className={style.menuOption}>Ajuda</li>
-        </Link>
         {!props.isAuthenticated && (
           <Link to="/signup">
             <li className={style.menuOption}>Cadastre-se</li>
@@ -23,7 +20,7 @@ const NavBar = props => {
         )}
         {props.isAuthenticated && (
           <Link to={`${props.url}/ranking`}>
-            <li className={style.menuOption}>Ranking</li>
+            <li className={style.menuOption}>Classificação</li>
           </Link>
         )}
         {props.isAuthenticated ? (
