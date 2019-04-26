@@ -1,0 +1,20 @@
+.bets {
+  margin: 20px;
+  display: grid;
+  justify-content: center;
+  grid-column-gap: 120px;
+  grid-row-gap: 40px;
+  grid-template-columns: repeat(auto-fit, 200px);
+  align-self: flex-start;
+}
+
+.controlls {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 120px;
+}
+
+.footer {
+  margin-top: 80px;
+}

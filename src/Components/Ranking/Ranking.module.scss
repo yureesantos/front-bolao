@@ -1,0 +1,29 @@
+.rankingTable {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50px;
+  grid-row-gap: 20px;
+  grid-template-areas:
+    "nome pontos"
+    "users points";
+  color: white;
+  justify-items: center;
+  margin: 0 auto;
+  max-width: 45vw;
+  min-height: 30vh;
+}
+
+.titles {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.username,
+.points {
+  display: block;
+  justify-self: center;
+  font-size: 1.2rem;
+  justify-self: center;
+  text-align: center;
+  margin-bottom: 20px;
+}

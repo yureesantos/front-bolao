@@ -1,0 +1,37 @@
+.navbar {
+  display: flex;
+  color: white;
+  justify-content: flex-end;
+  padding: 20px 0px;
+  padding-right: 10%;
+  justify-self: stretch;
+  align-self: flex-start;
+  width: 100%;
+  z-index: 10;
+
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    z-index: 10;
+  }
+}
+
+.menuOption {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 50px;
+  transition: all 0.3s;
+  z-index: 10;
+}
+
+.menuOption:hover {
+  cursor: pointer;
+  color: grey;
+  z-index: 10;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  z-index: 10;
+}

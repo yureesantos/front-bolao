@@ -1,0 +1,163 @@
+.ok {
+  justify-self: center;
+  align-self: center;
+  background: green;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1;
+  color: white;
+  text-align: center;
+  padding: 8px 10px;
+  border: 2px solid green;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.ok:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.navPage {
+  justify-self: center;
+  align-self: center;
+  background: black;
+  font-weight: bold;
+  font-size: 0.8rem;
+  line-height: 1;
+  color: white;
+  text-align: center;
+  padding: 8px 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  transition: all 0.1s;
+}
+
+.navPage:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.formBlack {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  min-width: 200px;
+  background: black;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  font-family: "Sarabun", sans-serif;
+  font-size: 1.2rem;
+  transition: all 0.3s;
+}
+
+.formBlack:hover {
+  cursor: pointer;
+  background: white;
+  color: black;
+}
+
+.formWhite {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  min-width: 200px;
+  background: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: white;
+  font-family: "Sarabun", sans-serif;
+  font-size: 1.2rem;
+  transition: all 0.3s;
+}
+
+.formWhite:hover {
+  cursor: pointer;
+  background: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.formBet {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  min-width: 100px;
+  background: black;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  font-family: "Sarabun", sans-serif;
+  font-size: 1rem;
+  transition: all 0.3s;
+}
+
+.formBet:hover {
+  cursor: pointer;
+  background: white;
+  color: black;
+  border: 1px solid black;
+  transform: scale(1.1);
+}
+
+.edit {
+  background: none;
+  font-weight: bold;
+  font-size: 0.8rem;
+  line-height: 1;
+  color: green;
+  text-align: center;
+  padding: 8px 10px;
+  border: 2px solid green;
+  border-radius: 5px;
+  transition: all 0.4s;
+}
+
+.edit:hover {
+  color: white;
+  cursor: pointer;
+  background-color: green;
+}
+
+.remove {
+  background: none;
+  font-weight: bold;
+  font-size: 0.8rem;
+  line-height: 1;
+  color: red;
+  text-align: center;
+  padding: 8px 10px;
+  border: 2px solid red;
+  border-radius: 5px;
+  transition: all 0.4s;
+}
+
+.remove:hover {
+  color: white;
+  cursor: pointer;
+  background-color: red;
+}
+
+.finish {
+  background: none;
+  font-weight: bold;
+  font-size: 0.8rem;
+  line-height: 1;
+  color: rgb(255, 187, 0);
+  text-align: center;
+  padding: 8px 10px;
+  border: 2px solid rgb(255, 187, 0);
+  border-radius: 5px;
+  transition: all 0.4s;
+}
+
+.finish:hover {
+  color: white;
+  cursor: pointer;
+  background-color: rgb(255, 187, 0);
+}
+
+.controlls {
+  margin-right: 10px;
+}

@@ -1,0 +1,39 @@
+@import "../../../Layout/scss/colors.scss";
+
+.TeamItem {
+  padding: 20px;
+  border-top: 10px solid $panels;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0px 0px 35px -12px rgba(0, 0, 0, 1);
+
+  justify-self: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 20px;
+  grid-column-gap: 10px;
+  grid-template-areas:
+    "name name"
+    "logo logo"
+    "flag flag"
+    "edit remove";
+}
+
+.name {
+  justify-self: center;
+  color: black;
+  font-size: 1rem;
+  grid-area: name;
+}
+
+.logo {
+  justify-self: center;
+  width: 64px;
+  grid-area: logo;
+}
+
+.flag {
+  justify-self: center;
+  width: 32px;
+  grid-area: flag;
+}

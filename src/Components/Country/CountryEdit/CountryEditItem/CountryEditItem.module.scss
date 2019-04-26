@@ -1,0 +1,19 @@
+.inputGroup {
+  color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "label input"
+    "- msg";
+  margin-bottom: 40px;
+}
+
+.Form {
+  color: black;
+  display: grid;
+  align-self: flex-start;
+  justify-self: center;
+  min-width: 700px;
+  background: white;
+  padding: 40px;
+}
