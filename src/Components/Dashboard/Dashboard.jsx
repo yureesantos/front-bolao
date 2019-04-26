@@ -44,7 +44,6 @@ class Dashboard extends Component {
                   >
                     Times
                   </Link>
-                  <Link to={`${this.props.match.url}/countries`}>Players</Link>
                   <Link
                     to={{
                       pathname: `${this.props.match.url}/matches/finished`,
