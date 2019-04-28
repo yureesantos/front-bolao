@@ -26,6 +26,7 @@ class Ranking extends Component {
   render() {
     let userRanked;
     let userPoints;
+    let userCravadas;
     if (this.state.users) {
       userRanked = this.state.users.map((user, index) => {
         return (
