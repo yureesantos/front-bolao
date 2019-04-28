@@ -37,7 +37,7 @@ class Ranking extends Component {
       userPoints = this.state.users.map((user, index) => {
         return (
           <div key={index} className={style.points}>
-            {user.points} ({user.cravadas} cravadas)
+            {user.points} ({user.cravadas})
           </div>
         );
       });
